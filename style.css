@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #111;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    height: 60vh;
+    background: url("https://wallpaperaccess.com/full/409306.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text {
+    background: rgba(255,255,255,0.9);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+}
+
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 25px;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card button {
+    width: 100%;
+    padding: 10px;
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    padding: 60px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
